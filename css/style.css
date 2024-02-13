@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inter;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px 0px;
+}
+
+.header>h1 {
+    font-size: 25px;
+
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-items .followers {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.mode{
+    display: flex;
+    
+}
+
+.mode>p{
+    margin-right: 3px;
+}
+.mode-box {
+    width: 35px;
+    background-color: hsl(230, 22%, 74%);
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.mode-box span {
+    width: 18px;
+    height: 17px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+}
+.dark-mode{
+    background-color: black;
+    color: #fff;
+}
+.social-network {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.social-network-items {
+    width: 240px;
+    height: 240px;
+    background-color: hsl(227, 47%, 96%);
+}
+
+.facebook {
+    border-top: 3px solid blue;
+}
+
+.twitter {
+    border-top: 3px solid blue;
+}
+
+.instagram {
+    border-top: 2px solid hsl(356, 69%, 56%);
+}
+
+.youtubee {
+    border-top: 2px solid red;
+}
+
+.social-network-names {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.social-network-names>i {
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.fb {
+    color: blue;
+}
+
+.twitt {
+    color: blue;
+
+}
+
+.insta {
+    color: hsl(356, 69%, 56%);
+}
+
+.youtube {
+    background-color: red;
+    color: #fff;
+    padding: 4px 3px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.followers-count {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.followers-count p:first-child {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.followers-count p:last-child {
+    font-size: 25px;
+    color: rgb(139 136 136 / 96%);
+    padding-bottom: 20px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 13px;
+    align-items: center;
+}
+
+.date>i {
+    margin-right: 3px;
+}
+
+
+.container>p {
+    padding-top: 80px;
+    padding-bottom: 13px;
+}
+
+.overview {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 105px;
+    row-gap: 25px;
+}
+
+.overview-item {
+    width: 240px;
+    height: 98px;
+    background-color: hsl(227, 47%, 96%);
+    padding: 20px 20px;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.pages>p {
+    font-size: 14px;
+}
+
+.pages>i {
+    font-size: 25px;
+}
+
+.pages-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages-info>p {
+    font-weight: 600;
+}
+
+
+.pages-info-item {
+    display: flex;
+    color: hsl(163, 72%, 41%);
+    font-size: 14px;
+    align-items: end;
+}
+
+.coded-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.coded-by>a {
+    margin-left: 3px;
+}
+
+.dark-items {
+    background-color: hsl(228, 28%, 20%);
+}
+
+.check{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+}
